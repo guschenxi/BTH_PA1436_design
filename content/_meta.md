@@ -8,4 +8,7 @@ Social:
     - title: Link till course site
       url: https://dbwebb.se/kurser/design-v3/
       icon: fas fa-leaf
+    - title: Link till BTH's homepage
+      url: https://bth.se/
+      icon: fas fa-home
 ---

@@ -12,3 +12,4 @@ Jag använder många tekniker i denna sida
 * CSS Normalisering
 * Git och GitHub som är en versionshanteringssystem
 * Pico som är en innehållshanteringssystem (CMS)
+* NodeJS och npm, JavaScript runtime environment och dess pakethanterare
