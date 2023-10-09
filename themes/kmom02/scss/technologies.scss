@@ -1,0 +1,72 @@
+@import 'variables';
+.technologies a{
+    text-decoration: none;
+}
+
+.technologies .tec-box{
+    padding: 0 1em;
+    padding-bottom: 1em;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+.technologies .tec-box:hover{
+    background-color: $background-alternative-color;
+    transition: background-color 1.5s;
+}
+
+.technologies {
+    display: grid;
+    gap: 1em 1em;
+    justify-items: space-around;
+    grid-column: 1fr 1fr 1fr;
+    grid-row: auto;
+    grid-template-areas: 
+        "title title title"
+        "css css html"
+        "javascript php php"
+        "python python python"
+        "git git sqlite";
+}
+
+.technologies h1 {
+    grid-area: title;
+    justify-self: center;
+}
+
+.css{
+    grid-area: css;
+}
+
+.html{
+    grid-area: html;
+}
+
+.javascript{
+    grid-area: javascript;
+}
+
+.php{
+    grid-area: php;
+}
+
+.python{
+    grid-area: python;
+}
+
+.git{
+    grid-area: git;
+}
+
+.sqlite{
+    grid-area: sqlite;
+}
+
+
+// responsiv
+@media screen and (max-width:599px) {
+    .technologies{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 'title' 'css' 'html' 'javascript' 'php' 'python' 'git' 'sqlite';
+    }
+}

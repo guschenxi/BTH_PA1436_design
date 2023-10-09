@@ -6,6 +6,9 @@
   }
 }
 @media (max-width: 449px) {
+  .nav {
+    flex-direction: column;
+  }
   .nav ul {
     display: block;
     padding: 0;
@@ -22,7 +25,8 @@
 @media (min-width: 450px) {
   .nav ul {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 1em 0;
   }
   .nav li {
@@ -51,6 +55,11 @@
   }
   .logo img {
     float: left;
+  }
+}
+@media (min-width: 800px) {
+  .nav ul {
+    justify-content: flex-end;
   }
 }
 

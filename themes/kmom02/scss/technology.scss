@@ -1,0 +1,43 @@
+@import 'variables';
+
+.technology .technology_sidebar li{
+    padding:0.1em 0;
+
+    a {
+        text-decoration: none;
+        padding: 0 0.5em;
+    }
+    a:hover{
+        background-color: $background-alternative-color;
+        transition: background-color 1.5s;
+    }
+}
+
+.technology{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 1.5em;
+
+    .technology_sidebar{
+        flex-grow: 2;
+        flex-basis: 0;
+    }
+
+    .technology_content{
+        flex-grow: 8;
+        flex-basis: 0;
+        line-height: 1.4;
+    }
+}
+
+// responsiv
+@media screen and (max-width:599px) {
+    .technology{
+        display:block;
+
+        .technology_sidebar{
+            display: none;
+        }
+    }
+}

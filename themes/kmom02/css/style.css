@@ -6470,7 +6470,7 @@ pre code {
   text-decoration: none;
 }
 .nav li:hover {
-  background-color: black;
+  background-color: #000;
   transition-duration: 1.5s;
   transition-property: background-color;
   font-style: italic;
@@ -6505,6 +6505,121 @@ pre code {
   margin: 0.3em;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+  justify-items: center;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.technologies a {
+  text-decoration: none;
+}
+
+.technologies .tec-box {
+  padding: 0 1em;
+  padding-bottom: 1em;
+  border-style: dotted;
+  border-radius: 10px;
+}
+
+.technologies .tec-box:hover {
+  background-color: #e0fbfc;
+  transition: background-color 1.5s;
+}
+
+.technologies {
+  display: grid;
+  gap: 1em 1em;
+  justify-items: space-around;
+  grid-column: 1fr 1fr 1fr;
+  grid-row: auto;
+  grid-template-areas: "title title title" "css css html" "javascript php php" "python python python" "git git sqlite";
+}
+
+.technologies h1 {
+  grid-area: title;
+  justify-self: center;
+}
+
+.css {
+  grid-area: css;
+}
+
+.html {
+  grid-area: html;
+}
+
+.javascript {
+  grid-area: javascript;
+}
+
+.php {
+  grid-area: php;
+}
+
+.python {
+  grid-area: python;
+}
+
+.git {
+  grid-area: git;
+}
+
+.sqlite {
+  grid-area: sqlite;
+}
+
+@media screen and (max-width: 599px) {
+  .technologies {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "title" "css" "html" "javascript" "php" "python" "git" "sqlite";
+  }
+}
+.technology .technology_sidebar li {
+  padding: 0.1em 0;
+}
+.technology .technology_sidebar li a {
+  text-decoration: none;
+  padding: 0 0.5em;
+}
+.technology .technology_sidebar li a:hover {
+  background-color: #e0fbfc;
+  transition: background-color 1.5s;
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 1.5em;
+}
+.technology .technology_sidebar {
+  flex-grow: 2;
+  flex-basis: 0;
+}
+.technology .technology_content {
+  flex-grow: 8;
+  flex-basis: 0;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 599px) {
+  .technology {
+    display: block;
+  }
+  .technology .technology_sidebar {
+    display: none;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
   color: #000;
@@ -6552,6 +6667,9 @@ a, p, li, img, .nav {
   }
 }
 @media (max-width: 449px) {
+  .nav {
+    flex-direction: column;
+  }
   .nav ul {
     display: block;
     padding: 0;
@@ -6568,7 +6686,8 @@ a, p, li, img, .nav {
 @media (min-width: 450px) {
   .nav ul {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 1em 0;
   }
   .nav li {
@@ -6597,6 +6716,11 @@ a, p, li, img, .nav {
   }
   .logo img {
     float: left;
+  }
+}
+@media (min-width: 800px) {
+  .nav ul {
+    justify-content: flex-end;
   }
 }
 

@@ -1,7 +1,6 @@
 @import 'variables';
 
 .nav {
-    @extend %round-corner;
     background-color: #444;
     text-align: center;
     max-width: 960px;

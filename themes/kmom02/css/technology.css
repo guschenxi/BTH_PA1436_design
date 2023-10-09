@@ -1,0 +1,38 @@
+.technology .technology_sidebar li {
+  padding: 0.1em 0;
+}
+.technology .technology_sidebar li a {
+  text-decoration: none;
+  padding: 0 0.5em;
+}
+.technology .technology_sidebar li a:hover {
+  background-color: #e0fbfc;
+  transition: background-color 1.5s;
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 1.5em;
+}
+.technology .technology_sidebar {
+  flex-grow: 2;
+  flex-basis: 0;
+}
+.technology .technology_content {
+  flex-grow: 8;
+  flex-basis: 0;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 599px) {
+  .technology {
+    display: block;
+  }
+  .technology .technology_sidebar {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=technology.css.map */
