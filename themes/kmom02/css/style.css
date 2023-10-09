@@ -6584,14 +6584,14 @@ pre code {
     grid-template-areas: "title" "css" "html" "javascript" "php" "python" "git" "sqlite";
   }
 }
-.technology .technology_sidebar li {
+.technology .technology-sidebar li {
   padding: 0.1em 0;
 }
-.technology .technology_sidebar li a {
+.technology .technology-sidebar li a {
   text-decoration: none;
   padding: 0 0.5em;
 }
-.technology .technology_sidebar li a:hover {
+.technology .technology-sidebar li a:hover {
   background-color: #e0fbfc;
   transition: background-color 1.5s;
 }
@@ -6602,11 +6602,11 @@ pre code {
   justify-content: space-around;
   column-gap: 1.5em;
 }
-.technology .technology_sidebar {
+.technology .technology-sidebar {
   flex-grow: 2;
   flex-basis: 0;
 }
-.technology .technology_content {
+.technology .technology-content {
   flex-grow: 8;
   flex-basis: 0;
   line-height: 1.4;
@@ -6616,7 +6616,7 @@ pre code {
   .technology {
     display: block;
   }
-  .technology .technology_sidebar {
+  .technology .technology-sidebar {
     display: none;
   }
 }

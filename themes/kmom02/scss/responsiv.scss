@@ -17,6 +17,7 @@
 @media (max-width: 449px) {
     .nav {
         flex-direction: column;
+
         ul {
             display:block;
             padding: 0;
@@ -66,8 +67,6 @@
 }
 
 @media (min-width: 600px) {
-        
-    
     .logo {
         position: relative;
         left:5%;

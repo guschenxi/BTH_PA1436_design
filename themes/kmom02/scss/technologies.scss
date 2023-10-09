@@ -1,4 +1,5 @@
 @import 'variables';
+
 .technologies a{
     text-decoration: none;
 }
@@ -22,11 +23,11 @@
     grid-column: 1fr 1fr 1fr;
     grid-row: auto;
     grid-template-areas: 
-        "title title title"
-        "css css html"
-        "javascript php php"
-        "python python python"
-        "git git sqlite";
+    "title title title"
+    "css css html"
+    "javascript php php"
+    "python python python"
+    "git git sqlite";
 }
 
 .technologies h1 {
