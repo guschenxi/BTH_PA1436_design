@@ -6599,7 +6599,6 @@ pre code {
 .technology {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   column-gap: 1.5em;
 }
 .technology .technology-sidebar {
@@ -6612,7 +6611,7 @@ pre code {
   line-height: 1.4;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 740px) {
   .technology {
     display: block;
   }
