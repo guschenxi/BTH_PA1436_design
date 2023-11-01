@@ -6638,7 +6638,7 @@ h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-color: #3d5a80;
+  background-color: yellow;
   margin: 0;
   padding: 0;
   line-height: 1.2;
@@ -6727,4 +6727,4 @@ a, p, li, img, .nav {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-dark.css.map */

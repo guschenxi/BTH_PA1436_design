@@ -13,4 +13,8 @@
   grid-column: span 3;
 }
 
+.page_capture {
+  max-width: 85%;
+}
+
 /*# sourceMappingURL=report.css.map */

@@ -11,4 +11,10 @@ Social:
     - title: Link till BTH's homepage
       url: https://bth.se/
       icon: fas fa-home
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
