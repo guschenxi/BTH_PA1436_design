@@ -1,4 +1,3 @@
-@import 'variables';
 /* Gemensamma */
 
 
@@ -47,9 +46,9 @@
     .nav li {
         display: block;
         margin: 0.1em 0.5em;
-        padding: 0 1em;
+        padding: 0.2em 1em;
         border-width: 2px;
-        border-style:dotted;
+        border-style: solid;
     }
 }
 

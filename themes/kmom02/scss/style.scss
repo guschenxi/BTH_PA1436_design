@@ -1,5 +1,4 @@
-@import 'variables';
-
+@import "variables";
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
@@ -20,9 +19,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@300&family=Young+Serif&display=swap');
 
+
+
+
 * {
     font-family: 'Roboto', sans-serif;
-    color: $font-color;
 }
 
 h1 {
@@ -36,7 +37,6 @@ h2, h3, h4, h5, h6 {
 
 
 body {
-    background-color: $background-color;
     margin: 0;
     padding: 0;
     line-height: $line-hight;
@@ -56,12 +56,87 @@ li {
     margin: 0.3em 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 %round-corner {
     border-radius: 10px;
 }
 
 a, p, li, img, .nav {
     @extend %round-corner;
+}
+
+// Variables Color
+$text-color: #092834;
+$text-alternative-color: #B6DD50;
+$accent-color: #ee6c4d;
+$background-color: #F0F7D4;
+$background-alternative-color: #66B032; 
+$header-footer-background-color: #092834;
+$navigation-background-color: #66B032;
+
+* {
+    color: $text-color;
+}
+
+body {
+    background-color: $background-color;
+    color: $text-color;
+
+}
+
+.nav {
+    background-color: $navigation-background-color;
+
+    a {
+        color: $text-color;
+    }
+
+    li:hover {
+        background-color: $accent-color;
+    }
+
+    li{
+        border-color: $text-color;
+    }
+}
+
+.header, .footer {
+    background-color: $header-footer-background-color;
+
+    *{
+        color: $text-alternative-color;
+    }
+}
+
+.technologies{
+    .tec-box{
+        background-color: $background-alternative-color;
+    }
+
+    .tec-box:hover{
+        background-color: $accent-color;
+    }
+}
+
+.technology .technology-sidebar li {
+    background-color: $background-alternative-color;
+}
+
+.technology .technology-sidebar li:hover{
+    background-color: $accent-color;
+}
+
+
+blockquote {
+    border-left-color: $accent-color;
+}
+
+code, pre {
+    border-color: $accent-color;
+    background: $background-color;
 }
 
 @import 'responsiv';

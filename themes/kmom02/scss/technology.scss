@@ -1,4 +1,3 @@
-@import 'variables';
 
 .technology .technology-sidebar li {
     padding:0.1em 0;
@@ -7,11 +6,10 @@
         text-decoration: none;
         padding: 0 0.5em;
     }
+}
 
-    a:hover{
-        background-color: $background-alternative-color;
-        transition: background-color 1.5s;
-    }
+.technology .technology-sidebar li:hover {
+    transition: background-color 1.5s;
 }
 
 .technology{

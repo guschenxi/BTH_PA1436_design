@@ -1,9 +1,11 @@
-@import 'variables';
+@import "variables";
 
 .header, .footer {
-    background-color: $header-footer-background-color;
-    color: $font-alternative-color;
     text-align: center;
+    
+    p{
+        font-weight: bold;
+    }
 }
 
 .header {
@@ -11,7 +13,10 @@
 
     h1 {
         margin: 1em 0;
+        letter-spacing: 0.05em;
     }
+
+
 }
 
 .footer {

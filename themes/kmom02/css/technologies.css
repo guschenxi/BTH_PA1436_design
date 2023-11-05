@@ -10,7 +10,6 @@
 }
 
 .technologies .tec-box:hover {
-  background-color: #e0fbfc;
   transition: background-color 1.5s;
 }
 

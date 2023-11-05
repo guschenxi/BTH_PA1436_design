@@ -6426,15 +6426,14 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid;
 }
 
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 1px solid;
   border-radius: 0.3em;
-  background: #f5f5f5;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6442,9 +6441,8 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid;
   border-radius: 0.3em;
-  background: #f5f5f5;
 }
 
 pre code {
@@ -6458,19 +6456,16 @@ pre code {
 }
 
 .nav {
-  background-color: #444;
   text-align: center;
   max-width: 960px;
   margin: auto;
 }
 .nav a {
-  color: #fff;
-  font-weight: bold;
+  font-weight: bolder;
   text-transform: uppercase;
   text-decoration: none;
 }
 .nav li:hover {
-  background-color: #000;
   transition-duration: 1.5s;
   transition-property: background-color;
   font-style: italic;
@@ -6481,9 +6476,10 @@ pre code {
 }
 
 .header, .footer {
-  background-color: #333;
-  color: #fff;
   text-align: center;
+}
+.header p, .footer p {
+  font-weight: bold;
 }
 
 .header {
@@ -6491,6 +6487,7 @@ pre code {
 }
 .header h1 {
   margin: 1em 0;
+  letter-spacing: 0.05em;
 }
 
 .footer {
@@ -6520,7 +6517,7 @@ pre code {
   grid-column: span 3;
 }
 
-.page_capture {
+.page-capture {
   max-width: 85%;
 }
 
@@ -6536,7 +6533,6 @@ pre code {
 }
 
 .technologies .tec-box:hover {
-  background-color: #e0fbfc;
   transition: background-color 1.5s;
 }
 
@@ -6595,8 +6591,8 @@ pre code {
   text-decoration: none;
   padding: 0 0.5em;
 }
-.technology .technology-sidebar li a:hover {
-  background-color: #e0fbfc;
+
+.technology .technology-sidebar li:hover {
   transition: background-color 1.5s;
 }
 
@@ -6625,7 +6621,6 @@ pre code {
 }
 * {
   font-family: "Roboto", sans-serif;
-  color: #000;
 }
 
 h1 {
@@ -6638,7 +6633,6 @@ h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-color: #3d5a80;
   margin: 0;
   padding: 0;
   line-height: 1.2;
@@ -6658,8 +6652,65 @@ li {
   margin: 0.3em 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 a, p, li, img, .nav {
   border-radius: 10px;
+}
+
+* {
+  color: #092834;
+}
+
+body {
+  background-color: #F0F7D4;
+  color: #092834;
+}
+
+.nav {
+  background-color: #66B032;
+}
+.nav a {
+  color: #092834;
+}
+.nav li:hover {
+  background-color: #ee6c4d;
+}
+.nav li {
+  border-color: #092834;
+}
+
+.header, .footer {
+  background-color: #092834;
+}
+.header *, .footer * {
+  color: #B6DD50;
+}
+
+.technologies .tec-box {
+  background-color: #66B032;
+}
+.technologies .tec-box:hover {
+  background-color: #ee6c4d;
+}
+
+.technology .technology-sidebar li {
+  background-color: #66B032;
+}
+
+.technology .technology-sidebar li:hover {
+  background-color: #ee6c4d;
+}
+
+blockquote {
+  border-left-color: #ee6c4d;
+}
+
+code, pre {
+  border-color: #ee6c4d;
+  background: #F0F7D4;
 }
 
 /* Gemensamma */
@@ -6696,9 +6747,9 @@ a, p, li, img, .nav {
   .nav li {
     display: block;
     margin: 0.1em 0.5em;
-    padding: 0 1em;
+    padding: 0.2em 1em;
     border-width: 2px;
-    border-style: dotted;
+    border-style: solid;
   }
 }
 @media (min-width: 450px) and (max-width: 599px) {
@@ -6726,5 +6777,3 @@ a, p, li, img, .nav {
     justify-content: flex-end;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

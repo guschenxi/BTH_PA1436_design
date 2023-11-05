@@ -5,8 +5,8 @@
   text-decoration: none;
   padding: 0 0.5em;
 }
-.technology .technology-sidebar li a:hover {
-  background-color: #e0fbfc;
+
+.technology .technology-sidebar li:hover {
   transition: background-color 1.5s;
 }
 

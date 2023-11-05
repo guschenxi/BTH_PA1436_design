@@ -1,4 +1,3 @@
-@import 'variables';
 
 .technologies a{
     text-decoration: none;
@@ -12,7 +11,6 @@
 }
 
 .technologies .tec-box:hover{
-    background-color: $background-alternative-color;
     transition: background-color 1.5s;
 }
 
