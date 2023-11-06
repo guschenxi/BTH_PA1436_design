@@ -16,6 +16,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'report';
 @import 'technologies';
 @import 'technology';
+@import 'gallery';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@300&family=Young+Serif&display=swap');
 
@@ -25,6 +26,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 * {
     font-family: 'Roboto', sans-serif;
 }
+// * { border: 1px solid red !important; }
 
 h1 {
     font-family: 'Young Serif';
@@ -68,6 +70,9 @@ a, p, li, img, .nav {
     @extend %round-corner;
 }
 
+img{
+    max-width: 100%;
+}
 // Variables Color
 $text-color: #092834;
 $text-alternative-color: #B6DD50;
