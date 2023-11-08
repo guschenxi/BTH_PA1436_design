@@ -6619,6 +6619,12 @@ pre code {
     display: none;
   }
 }
+.gallery img:hover {
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
 .gallery {
   display: grid;
   gap: 1em 1em;
@@ -6858,5 +6864,3 @@ code, pre {
     justify-content: flex-end;
   }
 }
-
-/*# sourceMappingURL=style-dark.css.map */

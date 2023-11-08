@@ -25,7 +25,7 @@ För att dokumentera webbsidornas färgval använde jag ett verktyg som heter "W
 
 ![bild: verktyg exempel](%assets_url%/img/verktyg.png "verktyg exempel"){.page-capture}
 
-En annan verktyg som jag använde var den inbygda DevTools i webbläsaren Chrome. För att ta reda på vilket typsnitt h1-, h2-, och h3-element använder, inspecterade jag dessa element och sedan filtrerade elementens "font-family"-attribut. 
+Ett annat verktyg som jag använde var den inbygda DevTools i webbläsaren Chrome. För att ta reda på vilket typsnitt h1-, h2-, och h3-element använder, inspecterade jag dessa element och sedan filtrerade elementens "font-family"-attribut. 
 
 Resultat
 -----------------------
