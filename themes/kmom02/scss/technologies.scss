@@ -6,12 +6,15 @@
 .technologies .tec-box{
     padding: 0 1em;
     padding-bottom: 1em;
-    border-style: dotted;
+    //border-style: dotted;
     border-radius: 10px;
+    box-shadow: 0 5px 6px 0 rgba(0,0,0,1);
 }
 
 .technologies .tec-box:hover{
     transition: background-color 1.5s;
+    transform: scale(1.05);
+    transition: transform 0.5s;
 }
 
 .technologies {

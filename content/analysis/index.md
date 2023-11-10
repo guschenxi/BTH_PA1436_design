@@ -10,7 +10,7 @@ Analysis
 
 <div class="tec-box colors">
     <a href="analysis/01_colors">
-        <h3>Colors</h3>
+        <h2>Colors</h2>
         <p>
         </p>
     </a>
@@ -18,7 +18,7 @@ Analysis
 
 <div class="tec-box load">
     <a href="analysis/02_load">
-        <h3>Load</h3>
+        <h2>Load</h2>
         <p>
         </p>
     </a>
@@ -26,7 +26,7 @@ Analysis
 
 <div class="tec-box design-principles">
     <a href="analysis/03_design_principles">
-        <h3>Design Principles</h3>
+        <h2>Design Principles</h2>
         <p>
         </p>
     </a>

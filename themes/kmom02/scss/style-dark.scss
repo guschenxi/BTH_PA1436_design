@@ -8,6 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../node_modules/normalize.css/normalize';
 
+@import 'homepage';
 @import 'blockquotes';
 @import 'code';
 
@@ -65,7 +66,7 @@ a{
     border-radius: 10px;
 }
 
-a, p, li, img, .nav {
+a, p, li, img, .nav, .embed-container {
     @extend %round-corner;
 }
 
@@ -114,6 +115,7 @@ body {
 .technologies{
     .tec-box{
         background-color: $background-alternative-color;
+        border-style: dotted;
     }
 
     .tec-box:hover{
@@ -138,5 +140,12 @@ code, pre {
     background: $background-color;
 
 }
+
+.homepage-wrapper{
+    .homepage-item{
+        border-top: 30px $text-alternative-color solid; 
+    }
+}
+
 
 @import 'responsiv';

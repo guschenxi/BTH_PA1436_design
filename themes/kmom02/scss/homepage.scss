@@ -1,0 +1,85 @@
+.homepage-wrapper .homepage-item{
+    padding: 0em 1em 1em 2em;
+    //border-style: dotted;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px 0 rgba(0,0,0,1);
+    width: 90%;
+    align-content: center;
+}
+
+.homepage-wrapper {
+    display: grid;
+    gap: 0em 0em;
+    justify-items: space-around;
+    grid-column: 33% 33% 33%;
+    grid-row: auto;
+    grid-template-areas: 
+    "title title title"
+    "homepage1 . homepage2"
+    ". homepage5 ."
+    "homepage4 . homepage3";
+    padding-bottom: 4em;
+    max-width: 85%;
+    margin:auto;
+}
+
+.homepage-wrapper h1{
+    grid-area: title;
+    //justify-self: center;
+}
+
+.homepage1{
+    grid-area: homepage1;
+    transform: rotate(-15deg);
+}
+
+.homepage2{
+    grid-area: homepage2;
+    transform: rotate(25deg);
+}
+
+.homepage3{
+    grid-area: homepage3;
+    transform: rotate(-10deg);
+}
+
+.homepage4{
+    grid-area: homepage4;
+    transform: rotate(15deg);
+}
+
+.homepage5{
+    grid-area: homepage5;
+    justify-self: center;
+
+    h2{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:764px) and (min-width:601px){
+    .homepage-wrapper{
+        gap: 1em 1em;
+        padding-bottom: 1em;
+
+        .homepage-item{
+            transform: rotate(0);
+        }
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .homepage-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 'title' 'homepage1' 'homepage2' 'homepage3' 'homepage4' 'homepage5';
+        gap: 2em 1em;
+        padding-bottom: 1em;
+
+        .homepage-item{
+            transform: rotate(0);
+            max-width: 95%;
+        }
+    }
+}

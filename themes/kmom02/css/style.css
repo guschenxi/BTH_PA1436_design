@@ -6422,6 +6422,79 @@ template {
   display: none;
 }
 
+.homepage-wrapper .homepage-item {
+  padding: 0em 1em 1em 2em;
+  border-radius: 10px;
+  box-shadow: 0 5px 6px 0 rgb(0, 0, 0);
+  width: 90%;
+  align-content: center;
+}
+
+.homepage-wrapper {
+  display: grid;
+  gap: 0em 0em;
+  justify-items: space-around;
+  grid-column: 33% 33% 33%;
+  grid-row: auto;
+  grid-template-areas: "title title title" "homepage1 . homepage2" ". homepage5 ." "homepage4 . homepage3";
+  padding-bottom: 4em;
+  max-width: 85%;
+  margin: auto;
+}
+
+.homepage-wrapper h1 {
+  grid-area: title;
+}
+
+.homepage1 {
+  grid-area: homepage1;
+  transform: rotate(-15deg);
+}
+
+.homepage2 {
+  grid-area: homepage2;
+  transform: rotate(25deg);
+}
+
+.homepage3 {
+  grid-area: homepage3;
+  transform: rotate(-10deg);
+}
+
+.homepage4 {
+  grid-area: homepage4;
+  transform: rotate(15deg);
+}
+
+.homepage5 {
+  grid-area: homepage5;
+  justify-self: center;
+}
+.homepage5 h2 {
+  display: none;
+}
+
+@media screen and (max-width: 764px) and (min-width: 601px) {
+  .homepage-wrapper {
+    gap: 1em 1em;
+    padding-bottom: 1em;
+  }
+  .homepage-wrapper .homepage-item {
+    transform: rotate(0);
+  }
+}
+@media screen and (max-width: 600px) {
+  .homepage-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "title" "homepage1" "homepage2" "homepage3" "homepage4" "homepage5";
+    gap: 2em 1em;
+    padding-bottom: 1em;
+  }
+  .homepage-wrapper .homepage-item {
+    transform: rotate(0);
+    max-width: 95%;
+  }
+}
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6459,6 +6532,10 @@ pre code {
   text-align: center;
   max-width: 960px;
   margin: auto;
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0);
+}
+.nav li {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 .nav a {
   font-weight: bolder;
@@ -6528,12 +6605,14 @@ pre code {
 .technologies .tec-box {
   padding: 0 1em;
   padding-bottom: 1em;
-  border-style: dotted;
   border-radius: 10px;
+  box-shadow: 0 5px 6px 0 rgb(0, 0, 0);
 }
 
 .technologies .tec-box:hover {
   transition: background-color 1.5s;
+  transform: scale(1.05);
+  transition: transform 0.5s;
 }
 
 .technologies {
@@ -6619,8 +6698,12 @@ pre code {
     display: none;
   }
 }
+.gallery img {
+  box-shadow: 0 4px 4px 0 rgb(0, 0, 0);
+}
+
 .gallery img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition-property: transform;
   transition-duration: 0.5s;
 }
@@ -6629,7 +6712,7 @@ pre code {
   display: grid;
   gap: 1em 1em;
   justify-items: space-around;
-  grid-column: 1fr 1fr 1fr 1fr;
+  grid-column: 1fr 1fr 1fr;
   grid-row: auto;
   grid-template-areas: "title title title" "pic1 pic2 pic3" "pic4 pic5 pic6" "pic7 pic8 pic9" "embed-container embed-container embed-container";
 }
@@ -6685,6 +6768,7 @@ pre code {
   height: 0;
   overflow: hidden;
   width: 90%;
+  box-shadow: 0 4px 4px 0 rgb(0, 0, 0);
 }
 
 .embed-container iframe {
@@ -6744,7 +6828,7 @@ a {
   text-decoration: none;
 }
 
-a, p, li, img, .nav {
+a, p, li, img, .nav, .embed-container {
   border-radius: 10px;
 }
 
@@ -6803,6 +6887,10 @@ blockquote {
 code, pre {
   border-color: #ee6c4d;
   background: #F0F7D4;
+}
+
+.homepage-wrapper .homepage-item {
+  border-top: 30px #B6DD50 solid;
 }
 
 /* Gemensamma */
@@ -6869,3 +6957,5 @@ code, pre {
     justify-content: flex-end;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

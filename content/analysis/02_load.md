@@ -32,21 +32,21 @@ Metod
 
 För att dokumentera webbsidornas prestanda använde jag ett verktyg som heter ["PageSpeed Insights" (https://pagespeed.web.dev/)](https://pagespeed.web.dev/) som erbjudes av Google. Verktyget ger betyg på anvigna webbsidans prestanda, tillgänglighet, och andra mätbara ämnen, för både mobilenheter och desktopenheter. Verktyget ger även användbara förslag på vilka saker man bör optimera för att öka webbsidans prestanda. Nedanstående bilden visar hur PageSpeed visar en webbsidas testresultat.
 
-![bild: PageSpeed exempel](../image/pagespeed.png "PageSpeed exempel"){.page-capture}
+![bild: PageSpeed exempel](../image/pagespeed.png?save-as=jpg&q=40&sharpen "PageSpeed exempel"){.page-capture}
 
 Ett annat verktyg som jag använde var den inbygda DevTools i webbläsaren Chrome. Jag använde "Network"-flik för att testar webbsidornas laddningstider, totala storlek och antal laddade resurser. Nedanstående bilden visar hur de önskade mätade värden visas i verktyget. Jag testkörde varje webbsida tre gånger och tog snittet av de tre mätvärden för laddningstid. 
 
-![bild: Network exempel](../image/verktyg_network.png "Network exempel"){.page-capture}
+![bild: Network exempel](../image/verktyg_network.png?save-as=jpg&q=40&sharpen "Network exempel"){.page-capture}
 
 Resultat
 -----------------------
 Testresultatet dokumenteras i nedanstående tabellen.
 
-<iframe width="80%" height="320px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSsu18QhBXykCeEu0CP_PfTa3hwqWf4ky0RJ12RnwxLO1GL60iIZBLyUgaPKI39FsVaXkDP5wtUByBF/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe title="result" width="80%" height="320px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSsu18QhBXykCeEu0CP_PfTa3hwqWf4ky0RJ12RnwxLO1GL60iIZBLyUgaPKI39FsVaXkDP5wtUByBF/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ### Kalmar Länstrafik (KLT)
 
-![bild på Kalmar Länstrafiks hemsida](../image/klt_desktop.png "bild på Kalmar Länstrafiks hemsida"){.page-capture}
+![bild på Kalmar Länstrafiks hemsida](../image/klt_desktop.png?save-as=jpg&q=40&sharpen "bild på Kalmar Länstrafiks hemsida"){.page-capture}
 
 ** Hemsidan **
 
@@ -64,7 +64,7 @@ Sidan har fått ganska hög betyg - 76 - för mobilenheter, och mycket bra betyg
 
 ### Blekingetrafiken (BT)
 
-![bild på Blekingetrafikens hemsida](../image/bt_desktop.png "bild på Blekingetrafikens hemsida"){.page-capture}
+![bild på Blekingetrafikens hemsida](../image/bt_desktop.png?save-as=jpg&q=40&sharpen "bild på Blekingetrafikens hemsida"){.page-capture}
 
 ** Hemsidan **
 
@@ -82,7 +82,7 @@ Sidan har fått medium betyg - 56 - för mobilenheter, men mycket bra betyg - 90
 
 ### Länstrafiken Kronoberg (LTK)
 
-![bild på Länstrafiken Kronobergs sida](../image/ltk_desktop.png "bild på Länstrafiken Kronobergs sida"){.page-capture}
+![bild på Länstrafiken Kronobergs sida](../image/ltk_desktop.png?save-as=jpg&q=40&sharpen "bild på Länstrafiken Kronobergs sida"){.page-capture}
 
 ** Hemsidan **
 

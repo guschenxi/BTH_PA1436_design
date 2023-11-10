@@ -8,6 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../node_modules/normalize.css/normalize';
 
+@import 'homepage';
 @import 'blockquotes';
 @import 'code';
 
@@ -66,7 +67,7 @@ a{
     border-radius: 10px;
 }
 
-a, p, li, img, .nav {
+a, p, li, img, .nav, .embed-container{
     @extend %round-corner;
 }
 
@@ -141,6 +142,12 @@ blockquote {
 code, pre {
     border-color: $accent-color;
     background: $background-color;
+}
+
+.homepage-wrapper{
+    .homepage-item{
+        border-top: 30px $text-alternative-color solid; 
+    }
 }
 
 @import 'responsiv';
