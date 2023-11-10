@@ -23,7 +23,7 @@ Metod
 
 För att dokumentera webbsidornas färgval använde jag ett verktyg som heter "Web Developer" som är en add-on in webbläsare Chrome. Verktyget erbjuder många användbara funktioner inom webbutvecklingen. Den funktionen jag använde är "View Colour Information". Funktionen hämtar automatiskt och presenterar alla använda färger i webbsidan. Bilden nedan visar hur resultatet från verktyget ser ut.
 
-![bild: verktyg exempel](%assets_url%/img/verktyg.png "verktyg exempel"){.page-capture}
+![bild: verktyg exempel](../image/verktyg.png "verktyg exempel"){.page-capture}
 
 Ett annat verktyg som jag använde var den inbygda DevTools i webbläsaren Chrome. För att ta reda på vilket typsnitt h1-, h2-, och h3-element använder, inspecterade jag dessa element och sedan filtrerade elementens "font-family"-attribut. 
 
@@ -33,7 +33,7 @@ Här är resultaten från alla webbsidor jag har jämfört.
 
 ### Mikael Roos
 
-![bild av Mikael Roos personsida](%assets_url%/img/mikaelroos.png "bild av Mikael Roos personsida"){.page-capture}
+![bild av Mikael Roos personsida](../image/mikaelroos.png "bild av Mikael Roos personsida"){.page-capture}
 
 ** Färgpaletten **
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -59,7 +59,7 @@ Ingen h1, h2 eller h3 har använts i denna webbsida, brödtexten använder sans-
 
 ### Emil Folino
 
-![bild av Emil Folino personsida](%assets_url%/img/emilfolino.png "bild av Emil Folino personsida"){.page-capture}
+![bild av Emil Folino personsida](../image/emilfolino.png "bild av Emil Folino personsida"){.page-capture}
 
 ** Färgpaletten **
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -84,7 +84,7 @@ Både h1 och h2 samt brödtexten använder typsnitt "sans-serif" och ingen h3-el
 
 ### Taylor Vowell
 
-![bild av Taylor Vowell personsida](%assets_url%/img/taylorvowell.png "bild av Taylor Vowell personsida"){.page-capture}
+![bild av Taylor Vowell personsida](../image/taylorvowell.png "bild av Taylor Vowell personsida"){.page-capture}
 
 ** Färgpaletten **
 <table style="border-spacing: 4px; border-collapse: separate">

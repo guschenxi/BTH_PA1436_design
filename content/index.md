@@ -26,7 +26,7 @@ Jag vill ha utmaningar i mitt liv och tycker att det alltid är roligt att lära
 ### Bild
 Här är min profilfigur:
 
-![Me](%assets_url%/img/me.webp "Profilfigur"){.me}
+![Me](image/me.webp "Profilfigur"){.me}
 
 
 
