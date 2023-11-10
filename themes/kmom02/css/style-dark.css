@@ -6828,6 +6828,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  filter: brightness(80%);
+}
+
 a, p, li, img, .nav, .embed-container {
   border-radius: 10px;
 }

@@ -46,6 +46,6 @@ Jag pluggar
 
 <div class="homepage5">
 <h2>Min profilfigur</h2>
-<img title='profilfigur' src='image/me.webp' alt='Profilfigur' class="me">
+<img title='profilfigur' src='image/me.png?co=9' alt='Profilfigur' class="me">
 </div>
 </div>

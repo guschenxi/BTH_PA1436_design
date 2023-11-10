@@ -62,6 +62,9 @@ a{
     text-decoration: none;
 }
 
+img{
+    filter: brightness(80%)
+}
 %round-corner {
     border-radius: 10px;
 }
